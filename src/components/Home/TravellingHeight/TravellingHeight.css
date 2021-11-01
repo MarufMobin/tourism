@@ -1,0 +1,32 @@
+.travelling-height{
+    background: url('../../../images/travellingheight.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+.travelling-height-inner{
+    width: 100%;
+    background-color: #bee4e7a3;
+    padding: 190px 0px 190px 0px;
+}
+.travelling-height-inner h2{
+
+}
+.travelling-height-inner p{
+
+}
+.travelling-height-inner img{
+
+}
+#button-tooltip-2> .tooltip-inner {
+    background-color: #8b8b8b;
+    color: #fff;
+    border: 1px solid #8b8b8b;
+  }
+  
+  #button-tooltip-2 > .tooltip-arrow {
+    border-top: 5px solid #8b8b8b;
+  }
+

@@ -1,0 +1,24 @@
+.registration-section{
+    width: 100%;
+    padding: 0px !important;
+}
+.res-back{
+    background: url('../../images/reg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 0px;
+    margin: 0px;
+    text-align: center;
+}
+.res-back h2{
+    font-size: 56px;
+    color: #fff;
+}
+.res-back p{
+    font-size: 18px;
+    width: 45%;
+    line-height: 32px;
+    margin: 0px auto;
+    color: #fff;
+}

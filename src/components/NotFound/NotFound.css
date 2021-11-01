@@ -1,0 +1,23 @@
+.not-found-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #bee4e7;
+    border:  2px solid #bee4e7;
+    padding: 12px 35px;
+    margin: 80px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .03s;
+    font-family: cursive;
+    display: inline-block;
+}
+.not-found-btn:hover{
+    background-color: #60a8ad;
+   border: 2px solid #95c4c7;
+    color: #fff ;
+}
+.not-found-title{
+    font-size: 40px;
+    font-family: cursive;
+    color:#566768;
+}

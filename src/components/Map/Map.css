@@ -1,0 +1,7 @@
+.cust-map{
+    width: 100%;
+    background-color: green;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}

@@ -1,0 +1,32 @@
+.header-color{
+    background-color: #bee4e7;
+    /* padding: 100px 0px; */
+}
+.cutom-navlink a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+
+    font-weight: 500;
+}
+.cutom-navlink :hover{
+    color: rgb(139, 139, 139);
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(139, 139, 139);
+    text-decoration: underline !important;
+}
+.custom-btn-header{
+    padding: 5px 30px;
+        background-color: rgb(139, 139, 139);
+        color: #fff;
+        border: 2px solid rgb(139, 139, 139);
+    
+}
+.custom-btn-header:hover {
+    padding: 5px 30px;
+    color: rgb(139, 139, 139);
+    background-color: transparent;
+    transition: .3s;
+    border: 2px solid rgb(139, 139, 139);
+}

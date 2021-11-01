@@ -1,0 +1,25 @@
+.footer {
+    padding: 50px;
+    background: #bee4e7 ;
+    color: white;
+    text-align: left;
+  }
+
+  .footer p{
+    color:  rgb(139, 139, 139);
+    font-weight: 400;
+    text-align: left;
+  }
+  .footer p{
+    color: rgb(139, 139, 139);
+  }
+  .footer small {
+    color: rgb(139, 139, 139);
+    text-align: left;
+  }
+  .footer-email{
+    padding: 12px 8px;
+    border: none;
+    width: 100%;
+
+  }

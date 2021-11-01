@@ -1,0 +1,32 @@
+.inner-banner-slider{
+    position: relative;
+}
+.inner-banner-search {
+    z-index: 1111111;
+    position: absolute;
+    left: 640px;
+     bottom: 300px;
+}
+.tour-plane{
+    width: 70%;
+}
+.tour-plane h3{
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+}
+.tour-plane p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 28px;
+    color: #bee4e7;
+}
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px !important;
+    border-radius: 50%;
+    margin-left: 35px;
+}                                                           
+.carousel-indicators{
+    bottom: 100px !important;
+}

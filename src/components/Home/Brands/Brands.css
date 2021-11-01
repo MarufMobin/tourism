@@ -1,0 +1,16 @@
+.brand-text{
+    text-align: center;
+    margin: 0px 0px 80px;
+    color: #bee4e7;
+}
+.brand-text h2{
+    font-size: 56px;
+    font-weight: 600px;
+}
+.brand-text p{
+    font-size: 22px;
+}
+.brand-img:hover {
+    /* display: none; */
+    cursor: pointer;
+}

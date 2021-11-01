@@ -1,0 +1,12 @@
+.custom-tourplaner{
+    background: url(https://images.unsplash.com/photo-1493305457700-d3d24daf8c8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80);
+    /* background: url('../../../images'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tourplaner-main{
+    background-color: #67813a7d;
+    padding: 40px 0px;
+
+}
