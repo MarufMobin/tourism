@@ -8,7 +8,7 @@ const Booking = () => {
     const { id } = useParams();
     const [booking, setBooking] = useState({});
     console.log(booking)
-    const uri = `http://localhost:5000/datas/${id}`;
+    const uri = `https://warm-chamber-07664.herokuapp.com/datas/${id}`;
     console.log(uri)
     useEffect(() => {
         fetch(uri)
@@ -23,7 +23,7 @@ const Booking = () => {
 
         const tourDetails = { tourId, email, img }
 
-        fetch('http://localhost:5000/datas', {
+        fetch('https://warm-chamber-07664.herokuapp.com/datas', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

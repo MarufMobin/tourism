@@ -7,7 +7,7 @@ const TourPlans = () => {
     const [tourPricing, setTourPricing] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/datas')
+        fetch('https://warm-chamber-07664.herokuapp.com/datas')
             .then(res => res.json())
             .then(data => setTourPricing(data));
     }, [])

@@ -7,7 +7,7 @@ const ManageUser = () => {
     const [selectedTour, setSelectedTour] = useState([]);
     // const {dependancy , setDepandency} = useState(false);
     useEffect(() => {
-        fetch('http://localhost:5000/tourdatas')
+        fetch('https://warm-chamber-07664.herokuapp.com/tourdatas')
         .then(res => res.json())
         .then(data => setSelectedTour(data))
     }, [])

@@ -4,7 +4,7 @@ const User = (props) => {
     const {email,img,tourId,_id} = props.select;
    
     const clickDeleteUser = (id) =>{
-       const uri = `http://localhost:5000/data/${id}`;
+       const uri = `https://warm-chamber-07664.herokuapp.com/data/${id}`;
        fetch(uri,{
            method: "Delete"
        }).then( res => res.json()).then(data => {
